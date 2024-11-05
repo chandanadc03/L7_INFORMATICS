@@ -1,4 +1,4 @@
-#Chocolate House Management System
+# Chocolate House Management System
 This application allows users to manage seasonal chocolate flavors, collect customer feedback, and handle allergy concerns.
 
 #Features
