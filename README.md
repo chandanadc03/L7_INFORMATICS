@@ -22,8 +22,6 @@ choco_house/
 
 │   ├── view_suggestions.html
 
-│   
-
 └── requirements.txt
 
 # Chocolate House Management System
