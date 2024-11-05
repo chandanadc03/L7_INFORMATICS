@@ -3,8 +3,11 @@ This application allows users to manage seasonal chocolate flavors, collect cust
 
 #Features
 Add and view seasonal and regular flavors.
+
 Collect customer feedback, including suggestions and allergy concerns.
+
 Setup Instructions
+
 To run the application locally, follow these steps:
 
 # Clone the repository:
@@ -17,19 +20,29 @@ After running the application, you will see a menu with the following options:
 # Add Flavor
 
 View Flavor
+
 Delete flavor
+
 Update flavor
+
 manage ingredients
+
 add ingredients
+
 update ingredients
+
 customer suggestions
+
 handle allergy concerns
+
 Choose an option by typing the corresponding number.
 
 # Technologies Used
 
 Python
+
 SQLite
+
 Docker
 
 
