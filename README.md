@@ -25,24 +25,24 @@ After running the application, you will see a menu with the following options:
 
 * Update flavor
 
-manage ingredients
+* manage ingredients
 
-add ingredients
+* ingredients
 
-update ingredients
+* update ingredients
 
-customer suggestions
+* customer suggestions
 
-handle allergy concerns
+* handle allergy concerns
 
-Choose an option by typing the corresponding number.
+* Choose an option by typing the corresponding number.
 
 # Technologies Used
 
-Python
+* Python
 
-SQLite
+* SQLite
 
-Docker
+* Docker
 
 
