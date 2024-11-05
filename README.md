@@ -11,6 +11,7 @@ To run the application locally, follow these steps:
 git clone https://github.com/chandanadc03/L7_INFORMATICS 
 
 cd choco_house_app
+
 Usage Instructions
 After running the application, you will see a menu with the following options:
 
