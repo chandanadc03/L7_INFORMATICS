@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Suggestion</title>
+</head>
+<body>
+    <h1>Add Flavor Suggestion</h1>
+    <form method="POST">
+        <label for="flavor">Choose Flavor:</label>
+        <select name="flavor">
+            <option value="">Select a flavor</option>
+            {% for flavor in flavors %}
+            <option value="{{ flavor.id }}">{{ flavor.name }}</option>
+            {% endfor %}
+            <option value="new_flavor">Suggest a New Flavor</option>
+        </select>
+        <br>
+        <label for="new_flavor_name">New Flavor Name:</label>
+        <input type="text" name="new_flavor_name">
+        <br>
+        <label for="allergies">Allergies:</label>
+        <input type="text" name="allergies">
+        <br>
+        <input type="submit" value="Add Suggestion">
+    </form>
+    <a href="/suggestions/">Back to Suggestions</a>
+    {% if error %}
+    <p style="color:red;">{{ error }}</p>
+    {% endif %}
+</body>
+</html>
