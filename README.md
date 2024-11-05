@@ -15,6 +15,7 @@ Usage Instructions
 After running the application, you will see a menu with the following options:
 
 # Add Flavor
+
 View Flavor
 Delete flavor
 Update flavor
@@ -25,10 +26,10 @@ customer suggestions
 handle allergy concerns
 Choose an option by typing the corresponding number.
 
-Technologies Used
+# Technologies Used
+
 Python
 SQLite
 Docker
 
-# Clone the Repository
-Open your terminal or command prompt and run the following command to clone the repository:
+
