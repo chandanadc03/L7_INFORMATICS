@@ -19,11 +19,11 @@ After running the application, you will see a menu with the following options:
 
 # Add Flavor
 
-View Flavor
+* View Flavor
 
-Delete flavor
+* Delete flavor
 
-Update flavor
+* Update flavor
 
 manage ingredients
 
