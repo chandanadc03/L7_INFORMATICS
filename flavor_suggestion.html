@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Suggestions</title>
+</head>
+<body>
+    <h1>Flavor Suggestions</h1>
+    <table>
+        <tr>
+            <th>Flavor</th>
+            <th>Allergies</th>
+   
+        </tr>
+        {% for suggestion in suggestions %}
+        <tr>
+            <td>{{ suggestion.flavor.name }}</td>
+            <td>{{ suggestion.allergies }}</td>
+                    {% endfor %}
+    </table>
+    <a href="/">Back to Home</a>
+</body>
+</html>
