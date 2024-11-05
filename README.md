@@ -7,7 +7,7 @@ Collect customer feedback, including suggestions and allergy concerns.
 Setup Instructions
 To run the application locally, follow these steps:
 
-#Clone the repository:
+# Clone the repository:
 git clone https://github.com/Muthammaap/chocolate_house_app.git   
 cd chocolate_house_app
 Usage Instructions
