@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Flavors</title>
+</head>
+<body>
+    <h1>Flavors</h1>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Seasonal</th>
+            <th>Actions</th>
+        </tr>
+        {% for flavor in flavors %}
+        <tr>
+            <td>{{ flavor.name }}</td>
+            <td>{{ flavor.seasonal }}</td>
+            <td>
+                <a href="/flavors/update/{{ flavor.id }}/">Update</a>
+                <a href="/flavors/delete/{{ flavor.id }}/">Delete</a>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+    <a href="/">Back to Home</a>
+</body>
+</html>
