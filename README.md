@@ -1,3 +1,31 @@
+# file strcture 
+
+choco_house/
+
+├── app.py
+
+├── models.py
+
+├── templates/
+
+│   ├── index.html
+
+│   ├── add_flavor.html
+
+│   ├── view_flavors.html
+
+│   ├── add_inventory.html
+
+│   ├── view_inventory.html
+
+│   ├── add_suggestion.html
+
+│   ├── view_suggestions.html
+
+│   
+
+└── requirements.txt
+
 # Chocolate House Management System
 This application allows users to manage seasonal chocolate flavors, collect customer feedback, and handle allergy concerns.
 
